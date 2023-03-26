@@ -90,7 +90,7 @@ elif [[ $1 =~ ^(-s|--sil) ]] ; then
         foldx="TheFatRat"
         yesorno
     fi
-    if [[ -d RequiredChan ]] ; then
+    if [[ -d RequiredChan]] ; then
         foldx="RequiredChan"
         yesorno
     fi
@@ -597,7 +597,7 @@ echo "  ~~~~~~~~~~~~~~~~~~~~~ BCHackTool ~~~~~~~~~~~~~~~~~~~~~~~~~"
             x)
                 clear
                 cat banners/bcbanner
-                echo " BCHackTool Programini Tercih Ettiginiz Icin Tesekkurler {ByChan} !!" 
+                echo " BCHackTool Programini Tercih Ettiginiz Icin Tesekkurler  !!" 
                 echo ""
                 exit 0
                 ;;
